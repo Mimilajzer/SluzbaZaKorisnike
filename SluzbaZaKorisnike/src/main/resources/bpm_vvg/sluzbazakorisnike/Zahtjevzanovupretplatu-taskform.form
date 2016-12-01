@@ -1,0 +1,31 @@
+
+<form id="1295920430">
+<property name="name" value="Zahtjevzanovupretplatu-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="korisnikID_OIB" type="InputText" id="2122953085">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;OIB (korisnikID)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="korisnikIN/OIB"/>
+<property name="outputBinding" value="korisnikOUT/OIB"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="MSISDN_ID_numeracijaMSISDN" type="InputTextInteger" id="1449142998">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;numeracijaMSISDN (MSISDN_ID)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="MSISDN_IN/numeracijaMSISDN"/>
+<property name="outputBinding" value="MSISDN_OUT/numeracijaMSISDN"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="MSISDN_IN" name="#E9E371" type="dataModelerEntry" outId="MSISDN_OUT" value="bpm_vvg.sluzbazakorisnike.MSISDN" id="MSISDN_ID"/>
+<dataHolder inputId="agentIN" name="#A7E690" type="dataModelerEntry" outId="agentOUT" value="bpm_vvg.sluzbazakorisnike.Agent" id="agentID"/>
+<dataHolder inputId="korisnikIN" name="#FF8881" type="dataModelerEntry" outId="korisnikOUT" value="bpm_vvg.sluzbazakorisnike.Korisnik" id="korisnikID"/>
+</form>
